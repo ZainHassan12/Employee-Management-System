@@ -72,6 +72,7 @@ class _CoAnnouncementState extends State<CoAnnouncement> {
           "Announcement",
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
       ),

@@ -70,6 +70,7 @@ class _HrAnnouncementState extends State<HrAnnouncement> {
           "Announcement",
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
       ),

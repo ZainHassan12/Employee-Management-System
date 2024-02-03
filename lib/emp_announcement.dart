@@ -97,6 +97,7 @@ class _EmpAnnouncementState extends State<EmpAnnouncement> {
           "Announcement",
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
       ),

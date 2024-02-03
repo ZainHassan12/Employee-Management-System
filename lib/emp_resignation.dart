@@ -71,6 +71,7 @@ class _Emp_ResignationState extends State<Emp_Resignation> {
           "Resignation",
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
       ),
@@ -173,7 +174,8 @@ class _Emp_ResignationState extends State<Emp_Resignation> {
                     child: const Text(
                       'Send',
                       style: TextStyle(
-                          fontSize: 20
+                          fontSize: 20,
+                        color: Colors.white,
                       ),
                     ),
                   ),

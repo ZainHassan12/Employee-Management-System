@@ -408,7 +408,12 @@ class _ActivityTimerState extends State<ActivityTimer> {
                           onPressed: () async {
                             saveComment();
                           },
-                          child: const Text('Submit'),
+                          child: const Text(
+                              'Submit',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
                       ],
                     ),
@@ -434,7 +439,8 @@ class _ActivityTimerState extends State<ActivityTimer> {
                       'Start',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 15
+                          fontSize: 15,
+                          color: Colors.white,
                       ),
                     ),
                   ),
@@ -452,7 +458,8 @@ class _ActivityTimerState extends State<ActivityTimer> {
                       'Finish',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 15
+                          fontSize: 15,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -670,6 +677,9 @@ class _ActivityTimerState extends State<ActivityTimer> {
                                         },
                                         child: const Text(
                                           "Comments",
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                          ),
                                         ),
                                       ),
                                     )

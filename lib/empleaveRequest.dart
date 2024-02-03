@@ -382,7 +382,8 @@ class _LeaveRequestFormState extends State<LeaveRequestForm> {
                               SingleChildScrollView(
                                 child: Container(
                                   alignment: Alignment.centerLeft,
-                                  height: 80,
+                                  height:100,
+                                  width :screenWidth/2,
                                   margin: const EdgeInsets.only(top: 12, bottom: 20),
                                   decoration: BoxDecoration(
                                     color: Colors.white,
@@ -400,7 +401,6 @@ class _LeaveRequestFormState extends State<LeaveRequestForm> {
                                     children: [
                                       Container(
                                         padding: const EdgeInsets.only(top: 20, bottom: 10),
-                                        width : 100,
                                         decoration: BoxDecoration(
                                           color: mycol,
                                           borderRadius: const BorderRadius.all(Radius.circular(5)),
@@ -471,7 +471,7 @@ class _LeaveRequestFormState extends State<LeaveRequestForm> {
                                                 },
                                               ),
                                               const SizedBox(
-                                                width: 90,
+                                                width: 60,
                                               ),
                                               snap[index]['Status'] == 'Pending'? Padding(
                                                 padding: const EdgeInsets.only(top: 20),
@@ -488,7 +488,10 @@ class _LeaveRequestFormState extends State<LeaveRequestForm> {
                                                     backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                                                   ),
                                                   child: const Text(
-                                                      "Decline"
+                                                      "Decline",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),
                                                   ),
                                                 ),
                                               ) : const SizedBox(),
@@ -512,6 +515,7 @@ class _LeaveRequestFormState extends State<LeaveRequestForm> {
                                       ),
                                       const Spacer(),
                                       Container(
+                                        margin: const EdgeInsets.only(left: 10),
                                         width: 100,
                                         alignment: Alignment.center,
                                         decoration: BoxDecoration(

@@ -31,6 +31,7 @@ class _AnnouncementState extends State<Announcement> {
           "Announcement",
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
       ),

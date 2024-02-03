@@ -430,7 +430,7 @@ class _HrRequest extends State<HrRequest> {
                                                 },
                                               ),
                                               const SizedBox(
-                                                width: 90,
+                                                width: 70,
                                               ),
                                               snap[index]['Status'] == 'Pending'? Padding(
                                                 padding: const EdgeInsets.only(top: 20),
